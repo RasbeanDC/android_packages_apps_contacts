@@ -31,7 +31,7 @@
         android:layout_weight="@integer/dialpad_layout_weight_digits"
         android:layout_marginTop="@dimen/dialpad_vertical_margin"
         android:gravity="center"
-        android:background="@drawable/dialpad_background" >
+        android:background="@android:color/black" >
 
         <com.android.contacts.dialpad.DigitsEditText
             android:id="@+id/digits"
@@ -71,7 +71,7 @@
         android:layout_height="0px"
         android:layout_weight="@integer/dialpad_layout_weight_additional_buttons"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/dialpad_background">
+        android:background="@android:color/black">
 
         <ImageButton
             android:id="@+id/dialButton"
